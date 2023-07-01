@@ -88,6 +88,7 @@ RANGE_16G = const(0b11)
 acceleration_range_values = (RANGE_2G, RANGE_4G, RANGE_8G, RANGE_16G)
 acc_range_sensitivity = (16384, 8192, 4096, 2048)
 
+
 class ICG20660:
     """Driver for the ICG20660 Sensor connected over I2C.
 
@@ -258,7 +259,6 @@ class ICG20660:
             raise ValueError("Data rate must be a valid setting")
 
         self.data_rate_divisor = rate_values[value]
-
 
     @property
     def data_rate_divisor(self):
