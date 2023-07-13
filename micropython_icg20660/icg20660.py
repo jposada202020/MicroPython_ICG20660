@@ -118,6 +118,8 @@ class ICG20660:
 
     .. code-block:: python
 
+        accx, accy, accz = icg20660.acceleration
+
     """
 
     _device_id = RegisterStruct(_DEVICE_ID, "B")

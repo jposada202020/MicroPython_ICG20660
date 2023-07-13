@@ -24,4 +24,4 @@ Table of Contents
 .. toctree::
     :caption: Other Links
 
-    Download from GitHub <https://github.com/jposada202020/MciroPython_ICG20660/releases/latest>
+    Download from GitHub <https://github.com/jposada202020/MicroPython_ICG20660/releases/latest>

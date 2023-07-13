@@ -22,11 +22,8 @@ keywords = [
     "sensor",
     "micropython",
     "icg20660",
-    "micropython",
     "driver",
-    "sensor",
     "tdk",
-    "icg20660",
     "acelerometer",
     "gyro",
 ]

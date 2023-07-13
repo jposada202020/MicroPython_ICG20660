@@ -16,7 +16,7 @@ while True:
         print("Current Gyro full scale setting: ", icg.gyro_full_scale)
         for _ in range(10):
             gyrox, gyroy, gyroz = icg.gyro
-            print("x:{:.2f}°/s, y:{:.2f}°/s, z:{:.2f}°/s".format(gyrox, gyroy, gyroz))
+            print(f"x:{gyrox:.2f}°/s, y:{gyroy:.2f}°/s, z{gyroz:.2f}°/s")
             print()
             time.sleep(0.5)
         icg.gyro_full_scale = gyro_full_scale
