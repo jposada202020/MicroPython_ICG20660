@@ -6,5 +6,5 @@
     ["micropython_icg20660/examples/icg20660_acceleration_range.py", "github:jposada202020/MicroPython_ICG20660/examples/icg20660_acceleration_range.py"],
     ["micropython_icg20660/examples/icg20660_dlpf_configuration.py", "github:jposada202020/MicroPython_ICG20660/examples/icg20660_dlpf_configuration.py"]
   ],
-  "version": "0.1"
+  "version": "1"
 }
