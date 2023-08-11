@@ -1,4 +1,4 @@
-MicroPython ICG20660 Library
+MicroPython ICG20660 Driver
 =====================================================================
 
 
