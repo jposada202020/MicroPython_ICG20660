@@ -325,6 +325,7 @@ class ICG20660:
         """
         Acceleration Property. The x, y, z acceleration values returned in a 3-tuple
         and are in :math:`m / s ^ 2.`
+        
         :return: Acceleration Values
         """
         raw_measurement = self._raw_accel_data
@@ -352,6 +353,7 @@ class ICG20660:
         """
         Gyro Property. The x, y, z angular velocity values returned in a 3-tuple and
         are in :math:`degrees / second`
+        
         :return: Angular velocity Values
         """
         raw_measurement = self._raw_gyro_data
